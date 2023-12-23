@@ -1,0 +1,78 @@
+## Required fields
+# The main researchers involved working on the resource,
+# or the authors of the publication in priority order.
+# May be a corporate/institutional or personal name.
+authors:
+  -
+    firstname: "Ajayrama"
+    lastname: "Kumaraswamy"
+    affiliation: "Department of Biology II, Ludwig-Maximilians-Universität München, 82152 Planegg-Martinsried, Germany"
+    id: "orcid.org/0000-0001-7928-877X"
+  -
+    firstname: "Aynur"
+    lastname: "Maksutov"
+    affiliation: "Moscow Institute of Physics and Technology, 141701 Dolgoprudny, Russia"
+  -
+    firstname: "Kazuki"
+    lastname: "Kai"
+    affiliation: "Department of Earth System Science, Fukuoka University, 814-0180 Fukuoka, Japan"
+  -
+    firstname: "Hiroyuki"
+    lastname: "Ai"
+    affiliation: "Department of Earth System Science, Fukuoka University, 814-0180 Fukuoka, Japan"
+    id: "orcid.org/0000-0001-5748-3996"
+  -
+    firstname: "Hidetoshi"
+    lastname: "Ikeno"
+    affiliation: "School of Human Science and Environment, University of Hyogo, 670-0092 Himeji, Japan"
+    id: "orcid.org/0000-0002-5134-5485"
+  -
+    firstname: "Thomas"
+    lastname: "Wachtler"
+    affiliation: "Department of Biology II, Ludwig-Maximilians-Universität München, 82152 Planegg-Martinsried, Germany"
+    id: "orcid.org/0000-0003-2015-6590"
+    
+
+# A name or title to describe the published resource.
+title: "Network simulations of interneuron circuits in the honeybee primary auditory center"
+
+# Any additional information. It is best practice to supply a description for the resource 
+description: |
+  This repository contains code used to simulate DL-Int-1 and DL-Int-2 neurons as part of a network
+  in the honeybee primary auditory center. The implementation uses the simulator Brian 
+  version 2.0.1 (RRID:SCR_002998) in Python.
+
+# List of keywords the resource should be associated with.
+keywords:
+  - Neuroscience
+  - Honeybee
+  - Primary Auditory Center
+  - Simulations
+  - AdExp Model
+  - Brain Simulator
+  - Python
+
+# Any rights information for this resource. Please provide both a license name and a link to the license.
+license:
+  name: "CC-BY"
+  url: "https://creativecommons.org/licenses/by/4.0/"
+
+## Optional Fields
+
+# Any funding reference for this resource.
+funding:
+  - "BMBF, grant 01GQ1611"
+  - "BMBF, grant 01GQ1004A"
+  - "JST"
+  - "Amgen Foundation, Amgen Scholars Programme 2016"
+
+# refType might be: IsCitedBy, IsSupplementTo, IsReferencedBy, IsPartOf
+# for further valid types see https://schema.datacite.org/meta/kernel-4
+references:
+  -
+    doi: "10.1101/159533"
+    reftype: "IsSupplementTo"
+    name: "Kumaraswamy A, Maksutov A, Kai K, Ai H, Ikeno H, Wachtler T (2017) Network simulations of interneuron circuits in the honeybee primary auditory center. bioRxiv 159533."
+  -
+    reftype: "IsReferencedBy"
+    name: "Ai H, Kai K, Kumaraswamy A, Ikeno H, Wachtler T: Interneurons in the honeybee primary auditory center responding to waggle dance-like vibration pulses."
